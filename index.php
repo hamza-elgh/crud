@@ -2,13 +2,6 @@
 <?php
 
 	include('conn.php');
-
-
-
-
-	$varS = "1, 2,3,4 ,5a6,7 ,8,9";
-	var_dump(explode('pop', $varS));
-
 	
 	if(isset($_POST['submit'])) {
 		$name = $_POST['name'];
